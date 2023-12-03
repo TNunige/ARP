@@ -84,8 +84,8 @@ After creating children, process stays in a infinte while loop awaiting terminat
 ### Server(Blackboard)
 Blackboard communicates the other processes through shared memory and logs the information it receives.
 It creates all segments of the shared memory and the semaphore.
-And for watchdog communication, it writes its own PID to file for the watchdog to read and read a watchdog's PID from the logfile.
-In infinite loop, it reads all the data from the shared memory and updates the contents to the logfile. And also, it periodically sends a signal to the watchdog after a certain number of iterations.
+<--And for watchdog communication, it writes its own PID to file for the watchdog to read and read a watchdog's PID from the logfile. -->
+In infinite loop, it reads all the data from the shared memory and updates the contents to a logfile. And also, it periodically sends a signal to the watchdog after a certain number of iterations.
 Upon exiting the loop, it clears up the segments of the shared memory and semaphore.
 
 ### Watchdog
@@ -98,19 +98,23 @@ If a timeout occurs, the watchdog terminates all child processes.
 
 ### Window
 Window process creates a game window using ncurses.
-It displays a drone represented by the character "X", which moves within the window based on user key input. (At first, the drone is printed in the middle of the main game window.)
-It accesses the shared memory to get the data from the drone's position calculated by drone process and user key input.
-
-
+A game window features a drone represented by the character "X",which moves based on user key input. (At first, the drone is printed in the middle of the main game window.)
+It accesses the shared memory to retrieve the data on the drone's updated position calculated by Drone process and user key input.
+Subsequently, it updates the drone's position and prints the character "X" on the window.
 Also, it periodically sends a signal to the watchdog process to inform its status.
 
 ### Drone
+Drone process models the drone's movement by calculationg forces based on user key input and repulsive forces near boarders(the sides of the window).
+It reads user key input from a named pipe and calculates forces based on the input. It utilizes the following dynamic motion equation:[equation] to determine the new position of the drone taking into account the sum of input forces and repulsive forces.
+Then, Drone process updates shared memory with the drone's new position and the user key input.
+Also, it periodically sends a signal to the watchdog process to inform its activity.
+
 
 
 ### Keyboard 
 Keyboard handles user key input and displays messages related to user input in the inspection window.
 It scans user key inputs and sends the values of the pressed key to the drone process through a named pipe.
-Also, it periodically sends a signal to the watchdog process to inform its status.
+Also, it periodically sends a signal to the watchdog process to inform its activity.
 
 ### Additional Comments
 #### Constants.h ####
