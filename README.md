@@ -31,6 +31,28 @@ make clean
 ```
 make clean logs
 ```
+### Additional tools ###
+Currently, programmers have implemented a way to control the size and positions of the console windows. This is possible using xdotool and wmctrl. 
+Download the tools in your command window like this: 
+
+```
+sudo apt-get update
+```
+ 
+```
+sudo apt-get install xdotool wmctrl
+```
+ 
+To use the positioning and sizing of this drone game certain lines in the master.c code have to commented and uncommented.
+Comment and uncomment certain lines for these tools to work. Here is a relevant part in the master.c code.
+<img width="466" alt="image" src="https://github.com/TNunige/ARP/assets/145358917/a6bbf306-94e9-4b7a-830d-713408cf3c1c">
+
+
+ 
+Comment out `arg_list3[]` and `arg_list5` argument lists that are passed as a command to the terminal. Uncomment all currently commented lines.
+Then it is also possible to manually change the dimensions of the console windows to match the computer screen of the user. This can be done here:
+As for the programmers, there is a possibility of doing the sizing for different computer screens and then it should work better because the sizing depends on the screen size of the computer used for the game. This requires extra work and is not implemented for this course.
+
 
 
 
@@ -98,13 +120,17 @@ The keyboard handles user key inputs and displays messages on the inspection win
 It scans user key inputs by using `getch()` command and sends the values of the pressed key to the drone process through a FIFO (named pipe).
 Also, it periodically sends a signal to the watchdog process to inform its activity.
 
-#### Constants.h ####
+### Constants.h ###
 All the necessary constants and structures are defined here.
 
-### Additional Comments
-- You have to press keys while the keyboard window is active.
-- In case your window doesn't look like this, run the code again.
-  ![image](https://github.com/TNunige/ARP/assets/145358917/55884daa-5f22-404b-898b-9516bb6c9ae7)
+### Improvements ###
+This assignment 1 submission is not a finalized version of the drone simulator and therefore it has improvements to be worked on for the next assignments.
+
+-	The ncurses interface is not working properly every time you run the game. Sometimes the window box lines or other components of the interface bug. Running it more times helps to correct them but doesn’t guarantee the display intended by the programmers. Especially when using other tools like xdotool and wmctrl to control the size and position of the konsole window on the computer screen.
+- Currently the watchdog does not check for the escape key but it could be an improvement to exit the game sooner when user has initiated it.
+- The watchdog does not terminate the console of the window and keyboard processes and only the process itself. This could be improved for the next assignment for watchdog to also receive the PIDs of the consoles and send a SIGKILL when a process has timed out. There is no need to actively check for the signals from the console PIDs. 
+
+   
 
 
 
