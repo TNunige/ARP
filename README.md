@@ -1,9 +1,15 @@
 # Assignment description
 The project is an interactive simulator for a drone with two degrees of freedom.
+The drone is operated by keys of the keyboard: 8 directions, plus keys for stopping, resetting, and quitting.
+The drone dynamics is a 2 degrees of freedom dot with mass (inertia) and viscous resistance. Any key pressed increases (decreases if reversed) in steps a force pushing the drone in the appropriate direction.
+The sides of the operation window are obstacles as well. They simulate the geo-fences used in drone operations.
+
 # Assignment 1
+For the 1st assignment Blackboard, Window, Keyboard, Drone, Watchdog (processes B,W,K,D) are created.
+The blackboard is using Posix Shared Memory. The Window and Keyboard are implemented using ncurses.
 This assignment represents the first part of the project for Advanced and Robot Programming course on UniGe in the winter semester 2023/2024. 
 
-The work has been performed by a team of two: Iris Laanearu and Tomoha Neki
+The work has been performed by a team of two: Iris Laanearu(s6350192) and Tomoha Neki(s6344955).
 
 ## Installation & Usage
 For the project's configuration, we have used `Makefile`.
@@ -32,7 +38,7 @@ make clean
 make clean logs
 ```
 ### Additional tools ###
-Currently, programmers have implemented a way to control the size and positions of the console windows. This is possible using xdotool and wmctrl. 
+Currently, programmers have implemented a way to control the size and positions of the console windows. This is possible using `xdotool` and `wmctrl`. 
 Download the tools in your command window like this: 
 
 ```
@@ -43,15 +49,20 @@ sudo apt-get update
 sudo apt-get install xdotool wmctrl
 ```
  
-To use the positioning and sizing of this drone game certain lines in the master.c code have to commented and uncommented.
-Comment and uncomment certain lines for these tools to work. Here is a relevant part in the master.c code.
+To use the positioning and sizing of this drone game certain lines in the master.c code have to be commented and uncommented.
+Comment and uncomment certain lines for these tools to work. Here is a relevant part of the master.c code.
 <img width="466" alt="image" src="https://github.com/TNunige/ARP/assets/145358917/a6bbf306-94e9-4b7a-830d-713408cf3c1c">
 
 
  
 Comment out `arg_list3[]` and `arg_list5` argument lists that are passed as a command to the terminal. Uncomment all currently commented lines.
-Then it is also possible to manually change the dimensions of the console windows to match the computer screen of the user. This can be done here:
+
+Then it is also possible to manually change the dimensions of the konsole windows to match the computer screen of the user. 
 As for the programmers, there is a possibility of doing the sizing for different computer screens and then it should work better because the sizing depends on the screen size of the computer used for the game. This requires extra work and is not implemented for this course.
+
+This is how the user interface should look like with the konsole resizing tools.
+![image](https://github.com/TNunige/ARP/assets/145358917/84694565-ad5b-4455-aed5-e6ba82cefee7)
+
 
 
 
@@ -127,8 +138,8 @@ All the necessary constants and structures are defined here.
 This assignment 1 submission is not a finalized version of the drone simulator and therefore it has improvements to be worked on for the next assignments.
 
 -	The ncurses interface is not working properly every time you run the game. Sometimes the window box lines or other components of the interface bug. Running it more times helps to correct them but doesn’t guarantee the display intended by the programmers. Especially when using other tools like xdotool and wmctrl to control the size and position of the konsole window on the computer screen.
-- Currently the watchdog does not check for the escape key but it could be an improvement to exit the game sooner when user has initiated it.
-- The watchdog does not terminate the console of the window and keyboard processes and only the process itself. This could be improved for the next assignment for watchdog to also receive the PIDs of the consoles and send a SIGKILL when a process has timed out. There is no need to actively check for the signals from the console PIDs. 
+- Currently the watchdog does not check for the escape key inserted by user but it could be an improvement to exit the game sooner when user has initiated it.
+- The watchdog does not terminate the konsole of the window and keyboard processes and only the process itself. This could be improved for the next assignment for watchdog to also receive the PIDs of the konsoles and send a `SIGKILL` when a process has timed out. There is no need to actively check for the signals from the konsole PIDs. 
 
    
 
