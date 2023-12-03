@@ -49,18 +49,25 @@ make clean
 ```
 
 
-### Operational instructions, controls
+###  Operational instructions, controls ###
 To operate the drone use following keybindings
-    `w` `e` `r`       
-    `s` `d` `f`   
-    `x` `c` `v`       
+- `w`: move left up
+- `s`: move left
+- `x`: move left down
+- `e`: move up
+- `c`: move down
+- `r`: move right up
+- `f`: move right
+- `v`: move right down
+- `d`:brake
+- `k`:restart
+- `esc` :exit
 
 
 
 ## Overview 
 
-(![Architecture scheme](https://github.com/TNunige/ARP/assets/145358917/d91aa4d7-c7de-46dd-9d3c-9e5030673532)
-)
+![Architecture scheme](https://github.com/TNunige/ARP/assets/145358917/d91aa4d7-c7de-46dd-9d3c-9e5030673532)
 
 The first part assumes first 6 components:
 - Master
