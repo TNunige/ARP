@@ -59,7 +59,7 @@ To operate the drone use following keybindings
 
 ## Overview 
 
-![Sketch of the architecture](![Architecture scheme](https://github.com/TNunige/ARP/assets/145358917/d91aa4d7-c7de-46dd-9d3c-9e5030673532)
+(![Architecture scheme](https://github.com/TNunige/ARP/assets/145358917/d91aa4d7-c7de-46dd-9d3c-9e5030673532)
 )
 
 The first part assumes first 6 components:
