@@ -1,0 +1,587 @@
+[2023-12-03 19:52:21] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:21] Recieved from drone (real)  y:50.00 x:96.75
+[2023-12-03 19:52:21] Printed character (main)  y:12.00 x:82.00
+[2023-12-03 19:52:21] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:21] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:21] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:21] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:21] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:21] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:21] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:21] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:21] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:21] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:22] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:22] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:22] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:22] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:22] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:22] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:22] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:22] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:22] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:22] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:22] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:22] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:22] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:22] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:22] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:22] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:22] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:22] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:22] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:22] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:23] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:23] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:23] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:23] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:23] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:23] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:23] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:23] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:23] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:23] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:23] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:23] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:23] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:23] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:23] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:23] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:23] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:23] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:24] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:24] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:24] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:24] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:24] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:24] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:24] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:24] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:24] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:24] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:24] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:24] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:24] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:24] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:24] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:24] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:24] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:24] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:24] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:24] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:25] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:25] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:25] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:25] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:25] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:25] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:25] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:25] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:25] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:25] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:25] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:25] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:25] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:25] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:25] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:25] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:25] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:25] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:25] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:25] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:26] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:26] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:26] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:26] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:26] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:26] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:26] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:26] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:26] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:26] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:26] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:26] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:26] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:26] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:26] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:26] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:26] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:26] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:26] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:26] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:27] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:27] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:27] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:27] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:27] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:27] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:27] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:27] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:27] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:27] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:27] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:27] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:27] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:27] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:27] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:27] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:27] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:27] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:27] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:27] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:28] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:28] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:28] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:28] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:28] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:28] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:28] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:28] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:28] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:28] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:28] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:28] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:28] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:28] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:28] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:28] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:28] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:28] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:29] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:29] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:29] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:29] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:29] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:29] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:29] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:29] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:29] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:29] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:29] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:29] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:29] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:29] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:29] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:29] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:29] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:29] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:29] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:29] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:30] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:30] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:30] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:30] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:30] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:30] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:30] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:30] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:30] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:30] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:30] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:30] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:30] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:30] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:30] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:30] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:30] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:30] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:30] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:30] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:31] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:31] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:31] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:31] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:31] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:31] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:31] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:31] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:31] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:31] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:31] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:31] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:31] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:31] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:31] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:31] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:31] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:31] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:31] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:31] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:32] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:32] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:32] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:32] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:32] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:32] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:32] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:32] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:32] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:32] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:32] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:32] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:32] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:32] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:32] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:32] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:32] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:32] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:32] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:32] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:33] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:33] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:33] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:33] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:33] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:33] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:33] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:33] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:33] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:33] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:33] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:33] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:33] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:33] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:33] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:33] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:33] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:33] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:34] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:34] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:34] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:34] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:34] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:34] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:34] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:34] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:34] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:34] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:34] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:34] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:34] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:34] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:34] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:34] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:34] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:34] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:34] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:34] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:35] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:35] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:35] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:35] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:35] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:35] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:35] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:35] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:35] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:35] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:35] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:35] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:35] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:35] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:35] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:35] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:35] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:35] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:35] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:35] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:36] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:36] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:36] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:36] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:36] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:36] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:36] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:36] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:36] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:36] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:36] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:36] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:36] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:36] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:36] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:36] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:36] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:36] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:36] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:36] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:37] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:37] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:37] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:37] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:37] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:37] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:37] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:37] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:37] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:37] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:37] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:37] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:37] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:37] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:37] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:37] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:37] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:37] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:37] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:37] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:38] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:38] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:38] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:38] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:38] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:38] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:38] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:38] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:38] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:38] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:38] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:38] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:38] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:38] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:38] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:38] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:38] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:38] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:39] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:39] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:39] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:39] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:39] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:39] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:39] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:39] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:39] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:39] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:39] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:39] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:39] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:39] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:39] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:39] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:39] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:39] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:39] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:39] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:40] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:40] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:40] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:40] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:40] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:40] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:40] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:40] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:40] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:40] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:40] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:40] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:40] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:40] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:40] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:40] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:40] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:40] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:40] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:40] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:41] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:41] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:41] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:41] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:41] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:41] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:41] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:41] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:41] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:41] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:41] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:41] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:41] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:41] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:41] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:41] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:41] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:41] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:41] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:41] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:42] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:42] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:42] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:42] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:42] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:42] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:42] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:42] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:42] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:42] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:42] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:42] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:42] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:42] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:42] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:42] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:42] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:42] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:42] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:42] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:43] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:43] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:43] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:43] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:43] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:43] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:43] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:43] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:43] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:43] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:43] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:43] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:43] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:43] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:43] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:43] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:43] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:43] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:43] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:43] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:44] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:44] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:44] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:44] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:44] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:44] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:44] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:44] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:44] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:44] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:44] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:44] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:44] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:44] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:44] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:44] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:44] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:44] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:45] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:45] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:45] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:45] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:45] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:45] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:45] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:45] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:45] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:45] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:45] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:45] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:45] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:45] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:45] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:45] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:45] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:45] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:45] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:45] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:46] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:46] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:46] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:46] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:46] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:46] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:46] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:46] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:46] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:46] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:46] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:46] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:46] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:46] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:46] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:46] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:46] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:46] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:46] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:46] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:47] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:47] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:47] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:47] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:47] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:47] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:47] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:47] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:47] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:47] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:47] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:47] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:47] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:47] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:47] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:47] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:47] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:47] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:47] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:47] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:48] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:48] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:48] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:48] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:48] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:48] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:48] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:48] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:48] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:48] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:48] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:48] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:48] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:48] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:48] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:48] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:48] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:48] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:49] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:49] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:49] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:49] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:49] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:49] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:49] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:49] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:49] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:49] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:49] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:49] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:49] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:49] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:49] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:49] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:49] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:49] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:49] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:49] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:50] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:50] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:50] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:50] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:50] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:50] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:50] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:50] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:50] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:50] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:50] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:50] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:50] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:50] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:50] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:50] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:50] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:50] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:50] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:50] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:51] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:51] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:51] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:51] Printed character (main)  y:12.00 x:42.00
+[2023-12-03 19:52:51] Recieved from drone (real)  y:50.00 x:50.00
+[2023-12-03 19:52:51] Printed character (main)  y:12.00 x:42.00
