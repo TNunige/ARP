@@ -8,7 +8,7 @@ The work has been performed by a team of two: Iris Laanearu and Tomoha Neki
 ## Installation & Usage
 For the project's configuration, we have used `Makefile`.
 
-To build executables, run this:
+To build executables, run this :
 ```
 make
 ```
@@ -62,7 +62,7 @@ The first part includes  6 processes:
 - Drone
 - Keyboard (User interface)
 
-All of above mentioned components were created.
+All of the above mentioned components were created.
 
 ### Master
 Master process is the father of all processes. It creates child processes by using `fork()`. It runs keyboard and window inside a wrapper program `Konsole`.
@@ -89,7 +89,7 @@ Subsequently, it updates the drone's position and prints the character "X" on th
 Also, it periodically sends a signal to the watchdog process to inform its activity.
 
 ### Drone
-The drone process models the drone character movement by dynamically calculating the force impacting the drone based on the user key input (direction), command and repulsive force. The repulsive force is activated when the drone is near the game window borders.
+The drone process models the drone character movement by dynamically calculating the force impacting the drone based on the user key input (direction), command, and repulsive force. The repulsive force is activated when the drone is near the game window borders.
 It calculates the forces based on the received user key from the keyboard process and writes it in a FIFO (named pipe). It utilizes the following dynamic motion equation:[equation] to determine the new position of the drone taking into account the sum of input forces and repulsive forces.
 Then, the Drone process updates shared memory with the drone's new position and the user key input. Additionally, it periodically sends a signal to the watchdog process to inform its activity.
 
@@ -98,9 +98,14 @@ The keyboard handles user key inputs and displays messages on the inspection win
 It scans user key inputs by using `getch()` command and sends the values of the pressed key to the drone process through a FIFO (named pipe).
 Also, it periodically sends a signal to the watchdog process to inform its activity.
 
-### Additional Comments
 #### Constants.h ####
 All the necessary constants and structures are defined here.
+
+### Additional Comments
+- You have to press keys while the keyboard window is active.
+- In case your window doesn't look like this, run the code again.
+  ![image](https://github.com/TNunige/ARP/assets/145358917/55884daa-5f22-404b-898b-9516bb6c9ae7)
+
 
 
 
