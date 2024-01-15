@@ -4,12 +4,10 @@ The drone is operated by keys of the keyboard: 8 directions, plus keys for stopp
 The drone dynamics is a 2 degrees of freedom dot with mass (inertia) and viscous resistance. Any key pressed increases (decreases if reversed) in steps a force pushing the drone in the appropriate direction.
 The sides of the operation window are obstacles as well. They simulate the geo-fences used in drone operations.
 
-# Assignment 1
-For the 1st assignment Blackboard, Window, Keyboard, Drone, Watchdog (processes B,W,K,D) are created.
-The blackboard is using Posix Shared Memory. The Window and Keyboard are implemented using ncurses.
-This assignment represents the first part of the project for Advanced and Robot Programming course on UniGe in the winter semester 2023/2024. 
-
+# Assignment 2
+For the 2nd assignment, we created the full system that inclues Server, Window, Keyboard, Drone, Watchdog, Targets, Obstacles (processes S,W,K,D,T,O). The server is using pipes to communicate with other processes. The Window and Keyboard are implemented using ncurses. This assignment represents the project for Advanced and Robot Programming course on UniGe in the winter semester 2023/2024.
 The work has been performed by a team of two: Iris Laanearu(s6350192) and Tomoha Neki(s6344955).
+
 
 ## Installation & Usage
 For the project's configuration, we have used `Makefile`.
@@ -87,13 +85,15 @@ To operate the drone use the following keybindings
 
 ![Architecture scheme](https://github.com/TNunige/ARP/assets/145358917/d91aa4d7-c7de-46dd-9d3c-9e5030673532)
 
-The first part includes  6 processes:
+The first part includes  8 processes:
 - Master
 - Blackboard
 - Window (User interface)
 - Watchdog
 - Drone
 - Keyboard (User interface)
+- Targets
+- Obstacles
 
 All of the above mentioned components were created.
 
@@ -102,12 +102,10 @@ Master process is the father of all processes. It creates child processes by usi
 
 After creating children, the process waits termination of all processes and prints the termination status.
 
-### Server(Blackboard)
-Blackboard communicates the other processes through shared memory and logs the information it receives.
-It creates all segments of the shared memory and the semaphore.
-For watchdog communication, the process writes its  PID to a temporary file for the watchdog to read. Then, it reads a watchdog's PID from a temporary watchdog file. 
-The process checks the data exchanged in the shared memory and updates the contents to a logfile. Additionally, it periodically sends a signal to the watchdog after a certain number of iterations.
-Upon exiting the loop, it clears up the segments of the shared memory and semaphore and terminates.
+### Server
+Server communicates the other processes through pipes and logs the information it receives.
+For watchdog communication, the process writes its PID to a temporary file for the watchdog to read. Then, it reads a watchdog's PID from a temporary watchdog file. The process checks the data exchanged via pipes and updates the contents to a logfile. Additionally, it periodically sends a signal to the watchdog after a certain number of iterations. Upon exiting the loop, it clears up the segments of the shared memory and semaphore and terminates.
+
 
 ### Watchdog
 The watchdog process's job is to monitor the activities of all the other processes (except the master). Watchdog monitors window, drone, keyboard, and blackboard processes.
@@ -116,26 +114,29 @@ We have chosen to implement a watchdog that only receives signals from monitored
 In the infinite loop, it monitors the elapsed time since the last data reception from each child process. When the elapsed time exceeds the timeout, the watchdog sends `SIGKILL` signals to all monitored processes and terminates all child processes.
 
 ### Window
-The window process creates the game window and the drone character using ncurses. The game window features a drone represented by the character "X", which moves based on user key input received from the keyboard process using a FIFO as a communication channel. At first, the drone is printed in the middle of the game window.
-It accesses the shared memory to retrieve the data on the drone's updated position calculated by the Drone process based on the user key input.
-Subsequently, it updates the drone's position and prints the character "X" on the window.
-Also, it periodically sends a signal to the watchdog process to inform its activity.
+The window process creates the game window and the drone, the obstacles and the targets using ncurses library. The process sends and receives the appropriate data from other processes via pipes. The process dynamically updates the positions of the drone, targets and obastacles. .Upon reaching the target, the process increments the score and deletes the reached target from the window. Aditionally, it periodically sends a signal to the watchdog process to inform its activity.
+
 
 ### Drone
-The drone process models the drone character movement by dynamically calculating the force impacting the drone based on the user key input (direction), command, and repulsive force. The repulsive force is activated when the drone is near the game window borders.
-It calculates the forces based on the received user key from the keyboard process and writes it in a FIFO (named pipe). It utilizes the following dynamic motion equation:[equation] to determine the new position of the drone taking into account the sum of input forces and repulsive forces.
-Then, the Drone process updates shared memory with the drone's new position and the user key input. Additionally, it periodically sends a signal to the watchdog process to inform its activity.
+The drone process models the drone character movement by dynamically calculating the force impacting the drone based on the user key input (direction), command, and repulsive force. The repulsive force is activated when the drone is near the game window borders or obstacles. The process calculates the forces based on the received user key from the keyboard process and writes it in a FIFO (named pipe). It utilizes the dynamic motion equation to determine the new position of the drone considering the sum of input forces and repulsive forces. Subsequently, the Drone process sends the drone's new position and the user key input to the server via pipes. Additionally, it periodically sends a signal to the watchdog process to inform its activity.
+
+
 
 ### Keyboard 
 The keyboard handles user key inputs and displays messages on the inspection window.
 It scans user key inputs by using `getch()` command and sends the values of the pressed key to the drone process through a FIFO (named pipe).
 Also, it periodically sends a signal to the watchdog process to inform its activity.
 
+### Targets
+The target process generates random target positions and sends them to the server process via pipes. Additionally, the process deletes random targets after certain time intervals. Also, it periodically sends a signal to the watchdog process to inform its activity.
+
+### Obstacles
+The obstacle process generates random obstacle positions and sends them to the server process via pipes. Additionally, the process deletes random obstacles after certain time intervals. Also, it periodically sends a signal to the watchdog process to inform its activity.
+
 ### Constants.h ###
 All the necessary constants and structures are defined here.
 
 ### Improvements ###
-This assignment 1 submission is not a finalized version of the drone simulator and therefore it has improvements to be worked on for the next assignments.
 
 -	The ncurses interface is not working properly every time you run the game. Sometimes the window box lines or other components of the interface bug. Running it more times helps to correct them but doesn’t guarantee the display intended by the programmers. Especially when using other tools like xdotool and wmctrl to control the size and position of the konsole window on the computer screen.
 - Currently the watchdog does not check for the escape key inserted by user but it could be an improvement to exit the game sooner when user has initiated it.
