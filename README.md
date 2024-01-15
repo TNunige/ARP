@@ -58,7 +58,8 @@ To operate the drone use the following keybindings
 
 ## Overview 
 
-![Assignment2_architecture](https://github.com/TNunige/ARP_Assignment_Mandarins/assets/145358917/d9ae39fd-2cbb-46a1-822e-01ee50ff898f)
+![Assignment2_architecture](https://github.com/TNunige/ARP_Assignment_Mandarins/assets/145358917/5e6c4e8d-c62b-4f3d-82c7-36e8c1d05f69)
+
 
 
 The first part includes  8 processes:
