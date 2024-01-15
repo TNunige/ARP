@@ -58,7 +58,8 @@ To operate the drone use the following keybindings
 
 ## Overview 
 
-![Architecture scheme](https://github.com/TNunige/ARP/assets/145358917/d91aa4d7-c7de-46dd-9d3c-9e5030673532)
+![Assignment2_architecture](https://github.com/TNunige/ARP_Assignment_Mandarins/assets/145358917/d9ae39fd-2cbb-46a1-822e-01ee50ff898f)
+
 
 The first part includes  8 processes:
 - Master
@@ -73,49 +74,42 @@ The first part includes  8 processes:
 All of the above mentioned components were created.
 
 ### Master
-Master process is the father of all processes. It creates child processes by using `fork()`. It runs keyboard and window inside a wrapper program `Konsole`.
-
+Master process is the father of all processes. It creates child processes by using fork(). It runs keyboard and window inside a wrapper program Konsole.
 After creating children, the process waits termination of all processes and prints the termination status.
+After spawning the children master process enters an infinite loop and checks if any of the processes that use konsole(window and keyboard) are still active. If one or both of the processes have died then it either kills the other process and then waits for the terminations for all the other processes. After exiting from the infinite loop it prints out the termination statuses of all child processes.	
 
 ### Server
-Server communicates the other processes through pipes and logs the information it receives.
-For watchdog communication, the process writes its PID to a temporary file for the watchdog to read. Then, it reads a watchdog's PID from a temporary watchdog file. The process checks the data exchanged via pipes and updates the contents to a logfile. Additionally, it periodically sends a signal to the watchdog after a certain number of iterations. Upon exiting the loop, it clears up the segments of the shared memory and semaphore and terminates.
+Server communicates with the other processes through pipes and logs the information it receives. The process recieves data from processes drone, obstacles and targets. It sends data to processes drone and window. The server checks the data exchanged via pipes and updates the contents to a logfile. Additionally, it periodically sends a signal to the watchdog after a certain number of iterations. Upon exiting the loop, it closes the used file descriptors and terminates.
 
 
 ### Watchdog
-The watchdog process's job is to monitor the activities of all the other processes (except the master). Watchdog monitors window, drone, keyboard, and blackboard processes.
-At the beginning of the process, it writes its PID to a temporary file for the other processes to read its PID and reads the PIDs of other monitored child processes from temporary files.
-We have chosen to implement a watchdog that only receives signals from monitored processes. It receives signal `SIGUSR1` from other child processes, indicating that child processes are active during the monitored period.
-In the infinite loop, it monitors the elapsed time since the last data reception from each child process. When the elapsed time exceeds the timeout, the watchdog sends `SIGKILL` signals to all monitored processes and terminates all child processes.
+The watchdog process's job is to monitor the activities of all the other processes (except the master). Watchdog monitors window, drone, keyboard, server, obstacles and targets processes. At the beginning of the process, it writes its PID to a temporary file for the other processes to read its PID and reads the PIDs of other monitored child processes from temporary files. We have chosen to implement a watchdog that only receives signals from monitored processes. It receives signal SIGUSR1 from other child processes, indicating that child processes are active during the monitored period. In the infinite loop, it monitors the elapsed time since the last data reception from each child process. When the elapsed time exceeds the timeout, the watchdog sends SIGKILL signals to all monitored processes and terminates all child processes.
 
 ### Window
-The window process creates the game window and the drone, the obstacles and the targets using ncurses library. The process sends and receives the appropriate data from other processes via pipes. The process dynamically updates the positions of the drone, targets and obastacles. .Upon reaching the target, the process increments the score and deletes the reached target from the window. Aditionally, it periodically sends a signal to the watchdog process to inform its activity.
+The window process creates the game window and prints the drone, the obstacles and the targets positions using ncurses library. The process sends and receives the appropriate data from other processes via pipes. The process dynamically updates the position of the drone based on the calculations made in the drone process. Obstacle positions are updated based on the positions randomly calculated in the obstacles process. Targets are also base on the positions sent by the targets process but also updated whenever the drone has reached a target. Upon reaching the target, the process increments the score and deletes the reached target from the window. Aditionally, it periodically sends a signal to the watchdog process to inform its activity.
 
 
 ### Drone
-The drone process models the drone character movement by dynamically calculating the force impacting the drone based on the user key input (direction), command, and repulsive force. The repulsive force is activated when the drone is near the game window borders or obstacles. The process calculates the forces based on the received user key from the keyboard process and writes it in a FIFO (named pipe). It utilizes the dynamic motion equation to determine the new position of the drone considering the sum of input forces and repulsive forces. Subsequently, the Drone process sends the drone's new position and the user key input to the server via pipes. Additionally, it periodically sends a signal to the watchdog process to inform its activity.
+The drone process models the drone character movement by dynamically calculating the force impacting the drone based on the user key input (direction), command, and repulsive force(border and obstacles). The repulsive force is activated when the drone is near the game window borders or obstacles. The process calculates the forces based on the received user key from the keyboard process. It utilizes the dynamic motion equation to determine the new position of the drone considering the sum of input forces and repulsive forces. Subsequently, the drone process sends the drone's new position and the user key input to the server via pipes. Additionally, it periodically sends a signal to the watchdog process to inform its activity.
 
 
 
 ### Keyboard 
-The keyboard handles user key inputs and displays messages on the inspection window.
-It scans user key inputs by using `getch()` command and sends the values of the pressed key to the drone process through a FIFO (named pipe).
-Also, it periodically sends a signal to the watchdog process to inform its activity.
+The keyboard handles the user key inputs and displays messages on the inspection window. It scans the key pressed by the user by the getch() command in the ncurses library and sends the values of the pressed key to the drone process through a FIFO (named pipe). Additionally, it periodically sends a signal to the watchdog process to inform its activity.
 
 ### Targets
-The target process generates random target positions and sends them to the server process via pipes. Additionally, the process deletes random targets after certain time intervals. Also, it periodically sends a signal to the watchdog process to inform its activity.
+The target process generates random target positions and sends them to the server process via pipes. The process deletes a random target after a certain time interval. Instead the process generates a new obstacle position. Aditionallty, it periodically sends a signal to the watchdog process to inform its activity.
 
 ### Obstacles
-The obstacle process generates random obstacle positions and sends them to the server process via pipes. Additionally, the process deletes random obstacles after certain time intervals. Also, it periodically sends a signal to the watchdog process to inform its activity.
+The obstacle process generates random obstacle positions and sends them to the server process via pipes. The process deletes a random obstacle after a certain time interval and generates a new obstacle position. Additionally, it periodically sends a signal to the watchdog process to inform its activity.
 
 ### Constants.h ###
 All the necessary constants and structures are defined here.
 
 ### Improvements ###
 
--	The ncurses interface is not working properly every time you run the game. Sometimes the window box lines or other components of the interface bug. Running it more times helps to correct them but doesn’t guarantee the display intended by the programmers. Especially when using other tools like xdotool and wmctrl to control the size and position of the konsole window on the computer screen.
 - Currently the watchdog does not check for the escape key inserted by user but it could be an improvement to exit the game sooner when user has initiated it.
-- The watchdog does not terminate the konsole of the window and keyboard processes and only the process itself. This could be improved for the next assignment for watchdog to also receive the PIDs of the konsoles and send a `SIGKILL` when a process has timed out. There is no need to actively check for the signals from the konsole PIDs. 
+
 
    
 
